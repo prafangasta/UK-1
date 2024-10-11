@@ -5,7 +5,7 @@ public class Nilai{
         this.nilai = nilai; 
     }
 
-    public int cetakNilai(){
+    public int getNilai(){
         return nilai;
     }
     
@@ -13,6 +13,10 @@ public class Nilai{
         this.nilai = nilai; 
     }
 
+      public void cetakNilai() {
+        System.out.println("Nilai: " + nilai);
+    }
+    
     public String cetakIndeks(){
         if (nilai >= 90){
             return "A";
